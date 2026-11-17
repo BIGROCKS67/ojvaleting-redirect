@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OJ Valeting has moved to ojvalet.co.uk</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://ojvalet.co.uk/">
+<script>
+// ojvaleting.org is Owen's old design.com address. Send every visitor to the same page on ojvalet.co.uk.
+(function () {
+  var map = { "/my-services": "/#prices", "/portfolio": "/work/", "/reviews": "/reviews/", "/contact": "/book/", "/book": "/book/" };
+  var p = location.pathname.replace(/\/+$/, "") || "/";
+  var to = map[p] || "/";
+  location.replace("https://ojvalet.co.uk" + to);
+})();
+</script>
+<meta http-equiv="refresh" content="0; url=https://ojvalet.co.uk/">
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:3rem 1rem;text-align:center;color:#0b1b2b;background:#f6f9fc}a{color:#0a63c9}</style>
+</head>
+<body>
+<p>OJ Valeting has moved to <a href="https://ojvalet.co.uk/">ojvalet.co.uk</a>.</p>
+</body>
+</html>
